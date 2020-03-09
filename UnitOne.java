@@ -1,33 +1,15 @@
-
-/**
- * Write a description of class UnitOne here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class UnitOne
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class UnitOne
-     */
-    public UnitOne()
+    public static void main(String args[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        // SKILL 2A
+        System.out.println("SKILL 2A");
+        System.out.println("Which of the following arithmetic expression evalutes to 1?\n I. 2/5%3 \n II. 2/(5%3) \n III. 2/5+1 \n");
+        System.out.println("SOLUTION");
+        System.out.println("I = " + 2/5%3 + "\nII = " + 2/(5%3) + "\nIII = " + 2/5+1);
+        System.out.println("ANSWER: II and III only");
+        System.out.println("");
+        // SKILL 2B
+        System.out.println("Consier the following code segment: \n double d = 0.25; \n int i = 3; "
     }
 }
