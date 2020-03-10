@@ -1,16 +1,19 @@
-public class UnitOne
+public class UnitThree
 {
     public static void main(String args[])
     {
-        // SKILL 2A
+        // SKILL 4A
         System.out.println("SKILL 2A");
-        System.out.println("Which of the following arithmetic expression evalutes to 1?\n I. 2/5%3 \n II. 2/(5%3) \n III. 2/5+1 \n");
+        System.out.println("String weather;\nif (tempt<= 31)\n{\n  weather = \"cold\";\n}\nelse\n{\n  weather = \"cool\";\n}\nif (temp >= 51)\n{\n  weather = \"moderate\";\n}\nelse\n{\n  weather = \"warm\";\n}\nSystem.out.print(weather);");
+        System.out.println("Which of the following test cases can be used to show that the code does NOT work as intended?");
+        System.out.println("  I. temp = 30\n II. temp = 51\nIII. temp = 60\n");
         System.out.println("SOLUTION");
-        System.out.println("I = " + 2/5%3 + "\nII = " + 2/(5%3) + "\nIII = " + 2/5+1);
-        System.out.println("ANSWER: II and III only");
-        System.out.println("");
+        System.out.println("  When temp = 30..." + temperature(30));
+        System.out.println("  When temp = 51..." + temperature(51));
+        System.out.println("  When temp = 60..." + temperature(60));
+        System.out.println("ANSWER: I only\n");
         System.out.println("-------------------------------------\n");
-        // SKILL 2B
+        /* // SKILL 2B
         System.out.println("SKILL 2B");
         System.out.println("Consider the following code segment: \n double d = 0.25; \n int i = 3; \n double diff = d - i; \n System.out.print((int)diff-0.5);");
         System.out.println("What is printed as a result of executing the code segment?\n");
@@ -37,5 +40,26 @@ public class UnitOne
         product = fact1 * fact2;
         System.out.println(" " + product);
         System.out.println("Therefore the answer is: \"Either the numerator or the denominator of the fraction 1 / 2 should be cast as double\"\n\n");
+    */}
+    public static String temperature(int temp)
+    {
+        String weather;
+        if (temp<= 31)
+        {
+            weather = "cold";
+        }
+        else
+        {
+            weather = "cool";
+        }
+        if (temp >= 51)
+        {
+            weather = "moderate";
+        }
+        else
+        {
+            weather = "warm";
+        }
+        return weather;
     }
 }
