@@ -2,6 +2,7 @@ public class UnitOne
 {
     public static void main(String args[])
     {
+        System.out.println("************* UNIT ONE *************");
         // SKILL 2A
         System.out.println("SKILL 2A");
         System.out.println("Which of the following arithmetic expression evalutes to 1?\n I. 2/5%3 \n II. 2/(5%3) \n III. 2/5+1 \n");
@@ -37,5 +38,6 @@ public class UnitOne
         product = fact1 * fact2;
         System.out.println(" " + product);
         System.out.println("Therefore the answer is: \"Either the numerator or the denominator of the fraction 1 / 2 should be cast as double\"\n\n");
+        System.out.println("************** END OF UNIT ONE **************\n");
     }
 }

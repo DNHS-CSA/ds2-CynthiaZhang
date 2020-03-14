@@ -2,6 +2,7 @@ public class UnitThree
 {
     public static void main(String args[])
     {
+        System.out.println("************* UNIT THREE *************");
         // SKILL 4A
         System.out.println("SKILL 2A");
         System.out.println("String weather;\nif (tempt<= 31)\n{\n  weather = \"cold\";\n}\nelse\n{\n  weather = \"cool\";\n}\nif (temp >= 51)\n{\n  weather = \"moderate\";\n}\nelse\n{\n  weather = \"warm\";\n}\nSystem.out.print(weather);");
@@ -46,7 +47,7 @@ public class UnitThree
         System.out.println(" (j != k) || (k <= m)");
         System.out.println(" One of De Morgan's laws says that !(A && B) is equivalent to !A || !B .");
         System.out.println(" For example, \"I don't like both apples and oranges\" is the same as \"I don't like apples, or I don't like oranges.\"");
-        System.out.println("-------------------------------------\n");
+        System.out.println("************** END OF UNIT THREE **************\n");
     }
     public static String temperature(int temp)
     {

@@ -13,7 +13,7 @@ public class UnitFour
         System.out.println("When i < n is changed to i <= n... " + Segment2());
         System.out.println("ANSWER: II and III only");
         System.out.println("");
-        System.out.println("-------------------------------------\n");
+        System.out.println("************** END OF UNIT FOUR **************\n");
     }
     public static String Segment()
     {

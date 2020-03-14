@@ -2,6 +2,7 @@ public class UnitTwo
 {
     public static void main(String args[])
     {
+        System.out.println("************* UNIT TWO *************");
         // SKILL 1C
         System.out.println("SKILL 1C");
         System.out.println("Consider the following class declaration.\npublic class Thing\n{\n  private String color;\n\n  public Thing()\n{\n    color = \"Blue\";\n    }\n\n  public Thing(String setColor)\n  {\n    color = setColor;\n  }\n}\n");
@@ -19,6 +20,6 @@ public class UnitTwo
         val *= 2;
         System.out.println("  AFTER RUNNING: "+val);
         System.out.println("ANSWER: (int) (Math.random() * 4 + 1)");
-        System.out.println("-------------------------------------\n");
+        System.out.println("************** END OF UNIT TWO **************\n");
     }
 }
