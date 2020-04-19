@@ -22,3 +22,4 @@ public class BoolTest
         return getOne() > other.one;
     }
 }
+//

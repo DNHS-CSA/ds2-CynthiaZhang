@@ -13,6 +13,8 @@ public class main
             System.out.println("| 3. Unit 3             |");
             System.out.println("| 4. Unit 4             |");
             System.out.println("| 5. Unit 5             |");
+            System.out.println("| 4. Unit 6             |");
+            System.out.println("| 5. Unit 7             |");
             System.out.println("|-----------------------|");
             Scanner s = new Scanner(System.in);
             System.out.print("| Choose option: ");
@@ -35,6 +37,12 @@ public class main
                     break;
                 case 5:
                     UnitFive.main(null);
+                    break;
+                case 6:
+                    UnitSix.main(null);
+                    break;
+                case 7:
+                    UnitSeven.main(null);
                     break;
             }
         }
